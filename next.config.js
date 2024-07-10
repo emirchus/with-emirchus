@@ -1,7 +1,5 @@
-import { NextConfig } from 'next';
-
 /**
- * @type {NextConfig}
+ * @type {import('next').NextConfig}
  */
 const nextConfig = {
   logging: {
@@ -17,4 +15,4 @@ const nextConfig = {
   ],
 };
 
-export default nextConfig;
+module.exports = nextConfig;
