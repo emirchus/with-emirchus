@@ -8,5 +8,5 @@ import { sessionOptions } from '@/lib/session';
 import type { SessionData } from '@/lib/session';
 
 export async function getSession() {
-  return getIronSession<SessionData>(cookies() as never, sessionOptions);
+  return getIronSession<SessionData>((await cookies()) as never, sessionOptions);
 }

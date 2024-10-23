@@ -45,6 +45,7 @@ function createClient({ baseServerUrl, baseUrl }: { baseUrl: string; baseServerU
   return client;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const createResources = (client: AxiosInstance) => {
   return {};
 };

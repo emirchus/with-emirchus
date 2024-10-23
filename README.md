@@ -10,7 +10,7 @@ npx create-next-app -e https://github.com/emirchus/with-emirchus
 
 ## Features
 
-- Next.js 14 App Directory
+- Next.js 15 App Directory
 - Radix UI Primitives
 - Tailwind CSS
 - Icons from [PhosphorIcons](https://phosphoricons.com/)
